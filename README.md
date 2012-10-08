@@ -39,7 +39,7 @@ The first parameter of the config file is "status". Status is for Kohana_Stripe 
 -------
 
 Copyright (C) 2012 Jean-Nicolas Boulay ([http://jean-nicolas.com/](http://jean-nicolas.com/))
-Modified by Ryder Ross ([http://www.ryderross.com/](http://wwww.ryderross.com))
+Modified by Ryder Ross ([http://www.ryderross.com/](http://www.ryderross.com))
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
