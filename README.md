@@ -3,6 +3,8 @@ kohana-stripe
 
 Stripe payment Kohana module.
 
+Differs from ([https://github.com/jnbdz/kohana-stripe](https://github.com/jnbdz/kohana-stripe)) in that it now uses the module init.php to load the Stripe library instead of requiring the Kohana_Stripe class.
+
 How to use
 ----------
 
@@ -17,11 +19,7 @@ Then in the boostrap file add this module, to the modules method.
 
 ###Adding the code:
 
-In one of your methods or in PHP (OOP) __construct method, you add this line:
-
-    Kohana_Stripe::init();
-
-This will load the "stripe-php" library and will setup the secret key. Afterwards you can just use Stripe static classes following [Stripe documentation](https://stripe.com/docs/api?lang=php#top).
+Just use Stripe static classes following [Stripe documentation](https://stripe.com/docs/api?lang=php#top)!
 
 Configuration File
 ----------
@@ -40,8 +38,8 @@ The first parameter of the config file is "status". Status is for Kohana_Stripe 
 
 -------
 
-
 Copyright (C) 2012 Jean-Nicolas Boulay ([http://jean-nicolas.com/](http://jean-nicolas.com/))
+Modified by Ryder Ross ([http://www.ryderross.com/](http://wwww.ryderross.com))
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
