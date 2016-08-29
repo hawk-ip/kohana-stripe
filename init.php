@@ -1,10 +1,7 @@
 <?php
 
-$mode = Kohana::$config->load('stripe.status');
-$private_key = Kohana::$config->load("stripe.$mode.secret_key");
-
-require_once Kohana::find_file('vendor', 'stripe-php/lib/Stripe', 'php');
-
+$mode = Kohana::config('stripe.status');
+$private_key = Kohana::config("stripe.$mode.secret_key");
 
 Stripe::setApiKey($private_key);
 
